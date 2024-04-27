@@ -1,7 +1,0 @@
-numpy
-opencv-python
-pathlib
-pillow
-tensorflow
-scikit-learn
-Flask
