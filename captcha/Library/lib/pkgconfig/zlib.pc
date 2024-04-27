@@ -1,0 +1,13 @@
+prefix=C:/Users/Samarpit Kandhari/Desktop/HP/MATERIAL/Project/Captcha-Recognition-End-to-End/captcha/Library
+exec_prefix=C:/Users/Samarpit Kandhari/Desktop/HP/MATERIAL/Project/Captcha-Recognition-End-to-End/captcha/Library
+libdir=C:/Users/Samarpit Kandhari/Desktop/HP/MATERIAL/Project/Captcha-Recognition-End-to-End/captcha/Library/lib
+sharedlibdir=C:/Users/Samarpit Kandhari/Desktop/HP/MATERIAL/Project/Captcha-Recognition-End-to-End/captcha/Library/lib
+includedir=C:/Users/Samarpit Kandhari/Desktop/HP/MATERIAL/Project/Captcha-Recognition-End-to-End/captcha/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Captcha-Recognition
+Version: 0.0.1
+Author: Samarpitt Kandharii
+Author-email: samarpitkandhari11@gmail.com
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pathlib
+Requires-Dist: pillow
+Requires-Dist: tensorflow
+Requires-Dist: scikit-learn
+Requires-Dist: Flask
