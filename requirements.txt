@@ -1,8 +1,10 @@
 numpy
+matplotlib
 opencv-python
 pathlib
 pillow
 tensorflow
 scikit-learn
 Flask
--e .
+flask_cors
+#-e .
