@@ -24,7 +24,6 @@ class PredictPipeline:
             imagename = self.filename
             
             test_image = Image.open(imagename)
-            # test_img = test_img.convert('RGB')
             test_image = np.array(test_image)
             test_image = np.reshape(test_image, (50, 200, 3))
             test_image = test_image / 255.0
@@ -48,14 +47,6 @@ class PredictPipeline:
                 result.append(characters[n])
             
             print(result)
-
-            # import matplotlib.pyplot as plt
-            # import matplotlib.image as mpimg
-            
-            # img = mpimg.imread(imagename)
-            # plt.imshow(img)
-            # plt.show()
-
 
             return [{ "image" : result}]
             
