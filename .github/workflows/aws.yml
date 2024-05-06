@@ -86,9 +86,9 @@ jobs:
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
          
-      # - name: Stop and remove  container if running
-      #   run: |
-      #    docker ps -q --filter "name=captcha" | grep -q . && docker stop captcha && docker rm -fv captcha
+      - name: Stop and remove  container if running
+        run: |
+         docker ps -q --filter "name=captcha" | grep -q . && docker stop captcha && docker rm -fv captcha
        
       - name: Run Docker Image to serve users
         run: |
